@@ -6,6 +6,7 @@ import { Sparkles } from "lucide-react";
 import { Header } from "@/components/header";
 import { Footer } from "@/components/footer";
 import { AnimatedGradientText } from "@/components/animated-gradient-text";
+import { FAQSection } from "@/components/faq-section";
 import { siteConfig } from "@/config/site";
 
 export function HomePage() {
@@ -96,6 +97,9 @@ export function HomePage() {
               ))}
             </motion.div>
           )}
+
+          {/* FAQ Section */}
+          <FAQSection />
         </div>
       </main>
 

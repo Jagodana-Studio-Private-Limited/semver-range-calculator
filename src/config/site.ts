@@ -74,6 +74,26 @@ export const siteConfig = {
     },
   ],
 
+  // FAQ (drives both the FAQ UI section and FAQPage JSON-LD schema)
+  faq: [
+    {
+      question: "{{FAQ_QUESTION_1}}",
+      answer: "{{FAQ_ANSWER_1}}",
+    },
+    {
+      question: "{{FAQ_QUESTION_2}}",
+      answer: "{{FAQ_ANSWER_2}}",
+    },
+    {
+      question: "{{FAQ_QUESTION_3}}",
+      answer: "{{FAQ_ANSWER_3}}",
+    },
+    {
+      question: "{{FAQ_QUESTION_4}}",
+      answer: "{{FAQ_ANSWER_4}}",
+    },
+  ],
+
   // ====== PAGES (for sitemap + per-page SEO) ======
   // Add every route here. Sitemap and generatePageMetadata() read from this.
   pages: {

@@ -3,6 +3,7 @@ import { Geist, Geist_Mono } from "next/font/google";
 import { ThemeProvider } from "@/components/theme-provider";
 import { GoogleAnalytics } from "@/components/google-analytics";
 import { StructuredData } from "@/components/seo/structured-data";
+import { FAQSchema } from "@/components/seo/faq-schema";
 import { Toaster } from "@/components/ui/sonner";
 import { siteConfig } from "@/config/site";
 import { env } from "@/env.mjs";
@@ -91,6 +92,7 @@ export default function RootLayout({
     <html lang="en" suppressHydrationWarning>
       <head>
         <StructuredData />
+        <FAQSchema />
       </head>
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
