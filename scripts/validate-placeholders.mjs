@@ -12,9 +12,9 @@ import { fileURLToPath } from "url";
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 
-if (process.env.SKIP_PLACEHOLDER_CHECK === "1") {
-  process.exit(0);
-}
+// if (process.env.SKIP_PLACEHOLDER_CHECK === "1") {
+//   process.exit(0);
+// }
 
 const configPath = resolve(__dirname, "../src/config/site.ts");
 const manifestPath = resolve(__dirname, "../public/site.webmanifest");
