@@ -1,7 +1,7 @@
 {
-  "name": "{{TOOL_NAME}}",
-  "short_name": "{{TOOL_SHORT_NAME}}",
-  "description": "{{TOOL_DESCRIPTION}}",
+  "name": "Semver Range Calculator",
+  "short_name": "Semver Calc",
+  "description": "Instantly visualize which versions match any semver range with a color-coded grid and plain-English explanations.",
   "icons": [
     {
       "src": "/favicon.svg",
@@ -22,7 +22,7 @@
       "purpose": "any maskable"
     }
   ],
-  "theme_color": "{{BRAND_COLOR}}",
+  "theme_color": "#8b5cf6",
   "background_color": "#ffffff",
   "display": "standalone",
   "orientation": "portrait-primary",
